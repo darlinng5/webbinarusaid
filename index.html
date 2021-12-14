@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Reproductor de Audio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f4ee5663d2.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 contenedor">
+                <h1>Reproductor HTML</h1>
+            </div>
+            <div class="col-12 col-sm-6 contenedorLista">
+                <input type="file" multiple id="archivos" class="archivos">
+                <hr>
+                <span class="titulo">Lista</span>
+                <ul class="list" id="lista"></ul>
+            </div>
+            <div class="col-12 col-sm-6 contenedorReproductor">
+                <audio src(unknown) id="reproductor" controls></audio>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

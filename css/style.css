@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/jefferson-santos-fCEJGBzAkrU-unsplash.jpg);
+    background-size: cover;
+    color: #ffffff;
+    height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+hr {
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+}
+
+.contenedorLista {
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.contenedorReproductor {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.list {
+    margin-top: 15px;
+    text-align: center;
+    list-style: none;
+}
+
+.list:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+    .contenedor {
+        font-style: italic;
+    }
+    .titulo {
+        font-style: italic;
+    }
+    body {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
